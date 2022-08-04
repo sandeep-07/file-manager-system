@@ -1,0 +1,146 @@
+/* @src/components/Modal.module.css */
+
+.ml900DarkBG {
+    background-color: var(--dark-bg);
+    width: 100vw;
+    height: 100vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.ml900Centered {
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin:  0 auto;
+    text-align: center;
+}
+
+.ml900Modal {
+    width: 390px;
+    background: var(--white);
+    color: var(--white);
+    z-index: 10;
+    border-radius: 3px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+    padding-bottom: 50px;
+}
+
+.ml900ModalHeader {
+    height: 33px;
+    background: var(--white);
+    overflow: hidden;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.ml900Heading {
+    margin: 0;
+    color: #2c3e50;
+    font-weight: 900;
+    font-size: 22px;
+    text-align: center;
+}
+
+.ml900FileOrFolder {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.ml900Btn {
+    border: 1px solid #d4d4d4;
+    color: #d4d4d4;
+    padding: 8px 23px;
+    cursor: pointer;
+}
+
+.ml900FolderButton {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.ml900FileButton {
+    border-radius: 0px 10px 10px 0;
+}
+
+.ml900ActiveBtn {
+    background-color: #4ab8ff;
+    color: white;
+    border: none;
+}
+
+.ml900ModalContent {
+    padding: 10px;
+    font-size: 14px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.ml900ModalInput {
+    padding: 15px 10px;
+    width: 78%;
+    border: thin solid #d4d4d4;
+    font-size: 16px;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    color: #727272;
+}
+
+::placeholder {
+    color: rgb(206, 206, 206);
+}
+
+.ml900ModalActions {
+    bottom: 2px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.ml900ActionsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ml900CloseBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+.ml900CloseBtn {
+    cursor: pointer;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    color: var(--dark-blue);
+    background: var(--white);
+    transition: all 0.25s ease;
+    align-self: flex-end;
+}
+
+.ml900createBtn {
+    width: 74%;
+    padding: 13px 9px;
+    border-radius: 9px;
+    border: none;
+    color: var(--white);
+    font-size: 19px;
+    background: var(--primary);
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.ml900createBtn:hover {
+    box-shadow: 0 5px 5px -5px rgba(73, 73, 73, 0.6);
+    transform: translateY(-1px);
+}

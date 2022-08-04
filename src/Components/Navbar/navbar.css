@@ -1,0 +1,100 @@
+.nb719Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    flex-direction: column-reverse;
+}
+.nb719NavbarLeftContainer{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.nb719NavbarContainer {
+    border-bottom: 1px solid #dbdce7;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+.nb719Input {
+    padding: 9px 14px;
+    border: thin solid #d4d4d4;
+    font-size: 16px;
+    outline: none;
+    border-radius: 10px;
+    width: 350px;
+    background-color: #fff;
+    padding-left: 25px;
+        background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+        background-size: 20px;
+}
+
+::placeholder {
+    color: rgb(206, 206, 206);
+    font-weight: 200;
+}
+
+.nb719BreadcrumbItem {
+    color: #0d6efd;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.nb719active {
+    color: #6c757d;
+}
+
+.nb719OpenModalIcon{
+    border: 1px solid rgba(83, 83, 83,0.3);
+    cursor: pointer;
+    align-self: center;
+    padding: 10px;
+    font-weight: 300;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: #a0a0a0;
+    margin-left: 20px;
+}
+.nb719InputField{
+    width: 100%;
+    padding: 10px;
+    border: thin solid #d4d4d4;
+    font-size: 16px;
+    outline: none;
+    border-radius: 10px;
+    width: 350px;
+    background-color: #fff;
+    padding-left: 30px;
+    font-weight: lighter;
+    color: rgb(93, 93, 93);
+}
+.nb719Icon{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.nb719Breadcrumb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width:600px) {
+    .nb719NavbarContainer {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: start;
+        
+    }
+    .nb719NavbarContainerRight{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .nb719InputField{
+        width: 100% !important;
+    }
+}
+

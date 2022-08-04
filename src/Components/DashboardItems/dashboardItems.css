@@ -1,0 +1,62 @@
+.di019Row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-top: 1.5rem;
+    /* justify-content: space-around\; */
+
+}
+.di019Col {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    margin-left: 10px;
+    width: 130px;
+    height: 100px;
+    margin: 10px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.di019Col:hover {
+    background-color: aliceblue;
+}
+
+.di019Image{
+    width: 50px;
+}
+
+.di019ColContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.di289IconStyle {
+    font-size: 4rem;
+    color: #4ab8ff;
+}
+.di019ItemName {
+    margin-top: 12px;
+    font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 450px) {
+    .di019Col {
+        width: 90px;
+        height: 80px;
+        margin: 6px;
+    }
+    .di019Image {
+        width: 37px;
+        font-size: 0.8rem;
+    }
+}
